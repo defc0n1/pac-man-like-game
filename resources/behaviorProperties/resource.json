@@ -1,0 +1,33 @@
+{
+  "behaviors": {
+    "PlayerBehavior": {
+      "scriptId": "4",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        }
+      ]
+    },
+    "GameManagerBehavior": {
+      "scriptId": "9",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "EnemiesBehavior": {
+      "scriptId": "18",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "GameOverBehavior": {
+      "scriptId": "24",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}
