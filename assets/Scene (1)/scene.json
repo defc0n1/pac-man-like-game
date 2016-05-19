@@ -153,13 +153,15 @@
         {
           "type": "TextRenderer",
           "config": {
-            "formatVersion": 1,
+            "formatVersion": 2,
             "fontAssetId": "10",
             "text": "Score: 0",
             "alignment": "left",
             "verticalAlignment": "center",
             "size": null,
-            "color": null
+            "color": null,
+            "overrideOpacity": false,
+            "opacity": null
           },
           "id": "0"
         }
