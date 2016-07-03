@@ -1,132 +1,135 @@
-[
-  {
-    "id": "1",
-    "name": "Scene",
-    "type": "scene"
-  },
-  {
-    "id": "10",
-    "name": "Font",
-    "type": "font"
-  },
-  {
-    "id": "19",
-    "name": "Game",
-    "type": "script"
-  },
-  {
-    "id": "9",
-    "name": "Game Manager",
-    "type": "script"
-  },
-  {
-    "id": "6",
-    "name": "Player",
-    "type": null,
-    "children": [
-      {
-        "id": "0",
-        "name": "Sprite",
-        "type": "sprite"
-      },
-      {
-        "id": "4",
-        "name": "Behavior",
-        "type": "script"
-      }
-    ]
-  },
-  {
-    "id": "7",
-    "name": "Maps",
-    "type": null,
-    "children": [
-      {
-        "id": "2",
-        "name": "Tile Set",
-        "type": "tileSet"
-      },
-      {
-        "id": "3",
-        "name": "Map",
-        "type": "tileMap"
-      }
-    ]
-  },
-  {
-    "id": "20",
-    "name": "Coin",
-    "type": null,
-    "children": [
-      {
-        "id": "5",
-        "name": "Sprite",
-        "type": "sprite"
-      },
-      {
-        "id": "21",
-        "name": "Sound",
-        "type": "sound"
-      }
-    ]
-  },
-  {
-    "id": "11",
-    "name": "Enemies",
-    "type": null,
-    "children": [
-      {
-        "id": "18",
-        "name": "Behavior",
-        "type": "script"
-      },
-      {
-        "id": "12",
-        "name": "Sprite 1",
-        "type": "sprite"
-      },
-      {
-        "id": "15",
-        "name": "Sprite 2",
-        "type": "sprite"
-      },
-      {
-        "id": "16",
-        "name": "Sprite 3",
-        "type": "sprite"
-      },
-      {
-        "id": "17",
-        "name": "Sprite 4",
-        "type": "sprite"
-      }
-    ]
-  },
-  {
-    "id": "23",
-    "name": "Game Over",
-    "type": null,
-    "children": [
-      {
-        "id": "22",
-        "name": "Scene",
-        "type": "scene"
-      },
-      {
-        "id": "24",
-        "name": "Behavior",
-        "type": "script"
-      },
-      {
-        "id": "25",
-        "name": "Victory",
-        "type": "sound"
-      },
-      {
-        "id": "26",
-        "name": "Game Over",
-        "type": "sound"
-      }
-    ]
-  }
-]
+{
+  "nextEntryId": 27,
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Scene",
+      "type": "scene"
+    },
+    {
+      "id": "10",
+      "name": "Font",
+      "type": "font"
+    },
+    {
+      "id": "19",
+      "name": "Game",
+      "type": "script"
+    },
+    {
+      "id": "9",
+      "name": "Game Manager",
+      "type": "script"
+    },
+    {
+      "id": "6",
+      "name": "Player",
+      "type": null,
+      "children": [
+        {
+          "id": "0",
+          "name": "Sprite",
+          "type": "sprite"
+        },
+        {
+          "id": "4",
+          "name": "Behavior",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Maps",
+      "type": null,
+      "children": [
+        {
+          "id": "2",
+          "name": "Tile Set",
+          "type": "tileSet"
+        },
+        {
+          "id": "3",
+          "name": "Map",
+          "type": "tileMap"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Coin",
+      "type": null,
+      "children": [
+        {
+          "id": "5",
+          "name": "Sprite",
+          "type": "sprite"
+        },
+        {
+          "id": "21",
+          "name": "Sound",
+          "type": "sound"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Enemies",
+      "type": null,
+      "children": [
+        {
+          "id": "18",
+          "name": "Behavior",
+          "type": "script"
+        },
+        {
+          "id": "12",
+          "name": "Sprite 1",
+          "type": "sprite"
+        },
+        {
+          "id": "15",
+          "name": "Sprite 2",
+          "type": "sprite"
+        },
+        {
+          "id": "16",
+          "name": "Sprite 3",
+          "type": "sprite"
+        },
+        {
+          "id": "17",
+          "name": "Sprite 4",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Game Over",
+      "type": null,
+      "children": [
+        {
+          "id": "22",
+          "name": "Scene",
+          "type": "scene"
+        },
+        {
+          "id": "24",
+          "name": "Behavior",
+          "type": "script"
+        },
+        {
+          "id": "25",
+          "name": "Victory",
+          "type": "sound"
+        },
+        {
+          "id": "26",
+          "name": "Game Over",
+          "type": "sound"
+        }
+      ]
+    }
+  ]
+}
